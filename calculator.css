@@ -13,6 +13,8 @@
 }
 
 .mdiv{
+    height: 74vh;
+    width: 20vw;
     background-color: #3A4352;
     padding: 20px; 
     border-radius: 10px;
@@ -33,18 +35,21 @@ div input{
     height: 60px;
     width: 60px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: sans-serif;
     background-color: transparent;
     color: white;
     cursor: pointer;
     background-color: #2f353f;
     box-shadow: 1px 1px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .div1{
-    /* border: 2px solid black; */
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +57,48 @@ div input{
 
 }
 
+.div2{
+    width: 14.6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
 .equal{
-    width: 141px;
+    width: 60px;
+    height: 140px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #33ffd8;
+    font-size: 28px;
+}
+.equal1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}   
+
+.color{
+    color: #33ffd8;
+    font-size: 28px;
+}
+.color1{
+    color: #33ffd8;
+}
+.multiplication{
+    font-size: 38px;
+    padding-top: 2vh;
+    color: #33ffd8;
+}
+.subtraction{
+    font-size: 38px;
+    color: #33ffd8;
+
+}
+.dott{
+    font-size: 30px;
 }
